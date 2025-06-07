@@ -25,8 +25,8 @@ while True:
       print("Invalid task number.")
   elif choice == "quit":
     print("Goodbye!")
-    with open("todo_list.txt", "w") as file:
-    for task in todo_list:
+      with open("todo_list.txt", "w") as file:
+      for task in todo_list:
         file.write(task + "\n")
 print("Your to-do list has been saved!")
     break
