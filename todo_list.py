@@ -12,7 +12,7 @@ while True:
   print("\nOptions: add, remove, quit")
   choice = input("What do you want to do?").lower()
 
-  if choice == "add:
+  if choice == "add":
     task = input("Enter a new task:")
     todo_list.append(task)
     print(f'"{task}" added!')
